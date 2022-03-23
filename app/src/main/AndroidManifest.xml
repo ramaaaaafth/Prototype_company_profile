@@ -4,13 +4,26 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/lego"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity android:name=".MainActivity">
-
+        </activity>
+        <activity android:name=".ProfilActivity">
+        </activity>
+        <activity android:name=".GuruActivity">
+        </activity>
+        <activity android:name=".PrestasiActivity">
+        </activity>
+        <activity android:name=".GalleryActivity">
+        </activity>
+        <activity android:name=".KepalaActivity">
+        </activity>
+        <activity android:name=".FasilitasActivity">
+        </activity>
+        <activity android:name=".EkstakurikulerActivity">
         </activity>
         <activity android:name=".MenuActivity"
             android:exported="true">
@@ -20,6 +33,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".GalleryActivity" />
     </application>
 
 </manifest>
