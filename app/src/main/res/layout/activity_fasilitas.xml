@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="">
+    android:background="@drawable/gradient"
+    tools:context=".FasilitasActivity">
 
     <TextView
         android:id="@+id/lfasilitas"

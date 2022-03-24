@@ -7,13 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="#00D4A3">
+    android:background="@drawable/gradient">
 
 
     <View
         android:layout_width="500dp"
         android:layout_height="300dp"
-        android:background="@drawable/school" />
+         />
 
     <ScrollView
         android:layout_width="match_parent"
