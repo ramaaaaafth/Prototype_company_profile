@@ -14,7 +14,6 @@ public class MainActivity extends Activity {
     ImageView gbr4;
     ImageView gbr5;
     ImageView gbr6;
-    ImageView gbr7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,22 +67,11 @@ public class MainActivity extends Activity {
 
             }
         });
+
         gbr5 = findViewById(R.id.gbr5);
 
 
         gbr5.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick (View view) {
-                Intent intent = new Intent(MainActivity.this, KepalaActivity.class);
-                startActivity(intent);
-
-            }
-        });
-        gbr6 = findViewById(R.id.gbr6);
-
-
-        gbr6.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick (View view) {
@@ -92,10 +80,10 @@ public class MainActivity extends Activity {
 
             }
         });
-        gbr7 = findViewById(R.id.gbr7);
+        gbr6 = findViewById(R.id.gbr6);
 
 
-        gbr7.setOnClickListener(new View.OnClickListener() {
+        gbr6.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick (View view) {

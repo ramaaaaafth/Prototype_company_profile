@@ -8,7 +8,11 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="@drawable/gradient">
-
+<!--<ImageView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginBottom="423dp"-->
+<!--    android:src="@drawable/smp1"/>-->
 
     <View
         android:layout_width="500dp"
@@ -57,7 +61,7 @@
                         android:layout_marginRight="0dp"
                         android:fontFamily="@font/mistral"
                         android:gravity="center"
-                        android:text="PROFIL SEKOLAH"
+                        android:text="VISI MISI"
                         android:textColor="#000000" />
                 </RelativeLayout>
 
@@ -118,35 +122,7 @@
                         android:textColor="#000000" />
                 </RelativeLayout>
 
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="25dp"
-                    android:background="@drawable/layout_bg">
 
-                    <ImageView
-                        android:id="@+id/gbr4"
-                        android:layout_width="125dp"
-                        android:layout_height="125dp"
-                        android:adjustViewBounds="true"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="30dp"
-                        android:src="@drawable/gallery" />
-
-                    <TextView
-                        android:id="@+id/myImageViewText3"
-                        android:layout_width="64dp"
-                        android:layout_height="23dp"
-                        android:layout_alignLeft="@+id/gbr4"
-                        android:layout_alignTop="@+id/gbr4"
-                        android:layout_alignRight="@+id/gbr4"
-                        android:layout_alignBottom="@+id/gbr4"
-                        android:layout_marginTop="90dp"
-                        android:fontFamily="@font/mistral"
-                        android:gravity="center"
-                        android:text="GALERI"
-                        android:textColor="#000000" />
-                </RelativeLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -163,26 +139,26 @@
                     android:background="@drawable/layout_bg">
 
                     <ImageView
-                        android:id="@+id/gbr5"
+                        android:id="@+id/gbr4"
                         android:layout_width="125dp"
                         android:layout_height="125dp"
                         android:paddingTop="15dp"
                         android:paddingBottom="25dp"
-                        android:src="@drawable/boss1" />
+                        android:src="@drawable/gallery" />
 
                     <TextView
                         android:id="@+id/myImageViewText4"
                         android:layout_width="match_parent"
                         android:layout_height="32dp"
-                        android:layout_alignLeft="@+id/gbr5"
-                        android:layout_alignTop="@+id/gbr5"
-                        android:layout_alignRight="@+id/gbr5"
-                        android:layout_alignBottom="@+id/gbr5"
+                        android:layout_alignLeft="@+id/gbr4"
+                        android:layout_alignTop="@+id/gbr4"
+                        android:layout_alignRight="@+id/gbr4"
+                        android:layout_alignBottom="@+id/gbr4"
                         android:layout_marginTop="93dp"
                         android:layout_marginRight="0dp"
                         android:fontFamily="@font/mistral"
                         android:gravity="center"
-                        android:text="KEPALA SEKOLAH"
+                        android:text="GALERI"
                         android:textColor="#000000" />
                 </RelativeLayout>
 
@@ -193,7 +169,7 @@
                     android:background="@drawable/layout_bg">
 
                     <ImageView
-                        android:id="@+id/gbr6"
+                        android:id="@+id/gbr5"
                         android:layout_width="125dp"
                         android:layout_height="125dp"
                         android:paddingTop="10dp"
@@ -204,10 +180,10 @@
                         android:id="@+id/myImageViewText5"
                         android:layout_width="64dp"
                         android:layout_height="23dp"
-                        android:layout_alignLeft="@+id/gbr6"
-                        android:layout_alignTop="@+id/gbr6"
-                        android:layout_alignRight="@+id/gbr6"
-                        android:layout_alignBottom="@+id/gbr6"
+                        android:layout_alignLeft="@+id/gbr5"
+                        android:layout_alignTop="@+id/gbr5"
+                        android:layout_alignRight="@+id/gbr5"
+                        android:layout_alignBottom="@+id/gbr5"
                         android:layout_marginTop="94dp"
                         android:fontFamily="@font/mistral"
                         android:gravity="center"
@@ -222,7 +198,7 @@
                     android:background="@drawable/layout_bg">
 
                     <ImageView
-                        android:id="@+id/gbr7"
+                        android:id="@+id/gbr6"
                         android:layout_width="125dp"
                         android:layout_height="125dp"
                         android:paddingBottom="20dp"
@@ -232,10 +208,10 @@
                         android:id="@+id/myImageViewText6"
                         android:layout_width="64dp"
                         android:layout_height="23dp"
-                        android:layout_alignLeft="@+id/gbr7"
-                        android:layout_alignTop="@+id/gbr7"
-                        android:layout_alignRight="@+id/gbr7"
-                        android:layout_alignBottom="@+id/gbr7"
+                        android:layout_alignLeft="@+id/gbr6"
+                        android:layout_alignTop="@+id/gbr6"
+                        android:layout_alignRight="@+id/gbr6"
+                        android:layout_alignBottom="@+id/gbr6"
                         android:layout_marginTop="94dp"
                         android:fontFamily="@font/mistral"
                         android:gravity="center"

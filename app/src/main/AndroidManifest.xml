@@ -19,8 +19,6 @@
         </activity>
         <activity android:name=".GalleryActivity">
         </activity>
-        <activity android:name=".KepalaActivity">
-        </activity>
         <activity android:name=".FasilitasActivity">
         </activity>
         <activity android:name=".EkstakurikulerActivity">
