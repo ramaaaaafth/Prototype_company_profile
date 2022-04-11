@@ -1,19 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/gradient"
-    tools:context=".GuruActivity">
+    android:background="@color/white"
+    android:fillViewport="true">
 
-    <TextView
-        android:id="@+id/lguru"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="300dp"
-        android:text="hall02"/>
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
 
-</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/layout_bg1">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/fotoku"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nardi S.Pd, M.Pd"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kepala Sekolah"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NIP. 196708051991031012"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#850202"/>
+            </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/layout_bg1">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/fotoku"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nardi S.Pd, M.Pd"
+                android:layout_gravity="center"
+                android:layout_marginTop="45dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kepala Sekolah"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#005EFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIP. 196708051991031012"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#850202"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/layout_bg1">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/fotoku"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nardi S.Pd, M.Pd"
+                android:layout_gravity="center"
+                android:layout_marginTop="45dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kepala Sekolah"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#005EFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIP. 196708051991031012"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#850202"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/layout_bg1">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/fotoku"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nardi S.Pd, M.Pd"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kepala Sekolah"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NIP. 196708051991031012"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#850202"/>
+            </LinearLayout>
+        </LinearLayout>
