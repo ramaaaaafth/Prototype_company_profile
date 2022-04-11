@@ -8,16 +8,64 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="@drawable/gradient">
-<!--<ImageView-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:layout_marginBottom="423dp"-->
-<!--    android:src="@drawable/smp1"/>-->
 
-    <View
-        android:layout_width="500dp"
-        android:layout_height="300dp"
-         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4CAF50"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="119dp"-->
+<!--                android:background="#4CAF50"-->
+<!--                android:gravity="center|top|left"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:id="@+id/BN">-->
+
+            <ImageView
+                android:id="@+id/logosmp1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:src="@drawable/logosmp1" />
+
+            <TextView
+                android:id="@+id/JDL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_toEndOf="@id/logosmp1"
+                android:gravity="center"
+                android:text="SMP N 1 JUMANTONO"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+<!--            </LinearLayout>-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/JDL"
+                android:layout_toEndOf="@id/logosmp1"
+                android:gravity="center"
+                android:text="" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:paddingTop="130dp">
+            android:paddingTop="160dp">
 
             <LinearLayout
                 android:id="@+id/ll1"
