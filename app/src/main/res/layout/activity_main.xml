@@ -9,61 +9,8 @@
     android:orientation="vertical"
     android:background="@drawable/gradient">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#4CAF50"
-            >
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="10dp" />
-
-<!--            <LinearLayout-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="119dp"-->
-<!--                android:background="#4CAF50"-->
-<!--                android:gravity="center|top|left"-->
-<!--                android:orientation="horizontal"-->
-<!--                android:id="@+id/BN">-->
-
-            <ImageView
-                android:id="@+id/logosmp1"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="24dp"
-                android:layout_marginBottom="24dp"
-                android:src="@drawable/logosmp1" />
-
-            <TextView
-                android:id="@+id/JDL"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:layout_toEndOf="@id/logosmp1"
-                android:gravity="center"
-                android:text="SMP N 1 JUMANTONO"
-                android:textSize="20dp"
-                android:textStyle="bold" />
 
 
-<!--            </LinearLayout>-->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/JDL"
-                android:layout_toEndOf="@id/logosmp1"
-                android:gravity="center"
-                android:text="" />
-
-        </RelativeLayout>
-
-    </LinearLayout>
 
 
 
@@ -71,12 +18,75 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:paddingTop="160dp">
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bnr">
 
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4CAF50"
+                    >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <!--            <LinearLayout-->
+                    <!--                android:layout_width="match_parent"-->
+                    <!--                android:layout_height="119dp"-->
+                    <!--                android:background="#4CAF50"-->
+                    <!--                android:gravity="center|top|left"-->
+                    <!--                android:orientation="horizontal"-->
+                    <!--                android:id="@+id/BN">-->
+
+                    <ImageView
+                        android:id="@+id/logosmp1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="24dp"
+                        android:src="@drawable/logosmp1" />
+
+                    <TextView
+                        android:id="@+id/JDL"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_toEndOf="@id/logosmp1"
+                        android:gravity="center"
+                        android:text="SMP N 1 JUMANTONO"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <!--            </LinearLayout>-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/JDL"
+                        android:layout_toEndOf="@id/logosmp1"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="Jl. Joko Tarub No. 1 Jumantono,Kodepos 57782,(0271)7889140,Email: smpn1jmt@gmail.com, http://smpn1jumantono.sch.id" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/bnr"
+    android:gravity="center"
+    android:paddingTop="30dp">
             <LinearLayout
                 android:id="@+id/ll1"
                 android:layout_width="wrap_content"
@@ -107,10 +117,10 @@
                         android:layout_alignRight="@+id/gbr1"
                         android:layout_alignBottom="@+id/gbr1"
                         android:layout_marginRight="0dp"
-                        android:fontFamily="@font/mistral"
                         android:gravity="center"
                         android:text="VISI MISI"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:textSize="10dp" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -135,10 +145,10 @@
                         android:layout_alignRight="@+id/gbr2"
                         android:layout_alignBottom="@+id/gbr2"
                         android:layout_marginTop="90dp"
-                        android:fontFamily="@font/mistral"
                         android:gravity="center"
                         android:text="GURU DAN STAFF"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:textSize="10dp" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -164,10 +174,10 @@
                         android:layout_alignBottom="@+id/gbr3"
                         android:layout_marginTop="93dp"
                         android:layout_marginRight="0dp"
-                        android:fontFamily="@font/mistral"
                         android:gravity="center"
                         android:text="PRESTASI"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:textSize="10dp" />
                 </RelativeLayout>
 
 
@@ -204,10 +214,10 @@
                         android:layout_alignBottom="@+id/gbr4"
                         android:layout_marginTop="93dp"
                         android:layout_marginRight="0dp"
-                        android:fontFamily="@font/mistral"
                         android:gravity="center"
                         android:text="GALERI"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:textSize="10dp" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -233,10 +243,10 @@
                         android:layout_alignRight="@+id/gbr5"
                         android:layout_alignBottom="@+id/gbr5"
                         android:layout_marginTop="94dp"
-                        android:fontFamily="@font/mistral"
                         android:gravity="center"
                         android:text="FASILITAS"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:textSize="10dp" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -261,13 +271,13 @@
                         android:layout_alignRight="@+id/gbr6"
                         android:layout_alignBottom="@+id/gbr6"
                         android:layout_marginTop="94dp"
-                        android:fontFamily="@font/mistral"
                         android:gravity="center"
                         android:text="EKSTRAKURIKULER"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:textSize="10dp" />
                 </RelativeLayout>
             </LinearLayout>
-
+</LinearLayout>
         </RelativeLayout>
 </ScrollView>
 </RelativeLayout>
