@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@drawable/gradient">
+    android:background="#C1E8FF">
+
 
 
 
@@ -32,7 +33,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#4CAF50"
+                    android:background="@drawable/bg"
                     >
 
                     <View
@@ -65,7 +66,8 @@
                         android:gravity="center"
                         android:text="SMP N 1 JUMANTONO"
                         android:textSize="20dp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
 
 
                     <!--            </LinearLayout>-->
@@ -81,203 +83,205 @@
                 </RelativeLayout>
 
             </LinearLayout>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/bnr"
-    android:gravity="center"
-    android:paddingTop="30dp">
-            <LinearLayout
-                android:id="@+id/ll1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="30dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="125dp"
-                    android:layout_height="125dp"
-                    android:layout_marginBottom="25dp"
-                    android:background="@drawable/layout_bg">
-
-                    <ImageView
-                        android:id="@+id/gbr1"
-                        android:layout_width="125dp"
-                        android:layout_height="125dp"
-                        android:paddingTop="20dp"
-                        android:paddingBottom="25dp"
-                        android:src="@drawable/education1" />
-
-                    <TextView
-                        android:id="@+id/myImageViewText"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:layout_alignLeft="@+id/gbr1"
-                        android:layout_alignRight="@+id/gbr1"
-                        android:layout_alignBottom="@+id/gbr1"
-                        android:layout_marginRight="0dp"
-                        android:gravity="center"
-                        android:text="VISI MISI"
-                        android:textColor="#000000"
-                        android:textSize="10dp" />
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="25dp"
-                    android:background="@drawable/layout_bg">
-
-                    <ImageView
-                        android:id="@+id/gbr2"
-                        android:layout_width="125dp"
-                        android:layout_height="125dp"
-                        android:paddingBottom="10dp"
-                        android:src="@drawable/division" />
-
-                    <TextView
-                        android:id="@+id/myImageViewText1"
-                        android:layout_width="64dp"
-                        android:layout_height="23dp"
-                        android:layout_alignLeft="@+id/gbr2"
-                        android:layout_alignTop="@+id/gbr2"
-                        android:layout_alignRight="@+id/gbr2"
-                        android:layout_alignBottom="@+id/gbr2"
-                        android:layout_marginTop="90dp"
-                        android:gravity="center"
-                        android:text="GURU DAN STAFF"
-                        android:textColor="#000000"
-                        android:textSize="10dp" />
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="25dp"
-                    android:background="@drawable/layout_bg">
-
-                    <ImageView
-                        android:id="@+id/gbr3"
-                        android:layout_width="125dp"
-                        android:layout_height="125dp"
-                        android:paddingBottom="25dp"
-                        android:src="@drawable/achievement" />
-
-                    <TextView
-                        android:id="@+id/myImageViewText2"
-                        android:layout_width="match_parent"
-                        android:layout_height="32dp"
-                        android:layout_alignLeft="@+id/gbr3"
-                        android:layout_alignTop="@+id/gbr3"
-                        android:layout_alignRight="@+id/gbr3"
-                        android:layout_alignBottom="@+id/gbr3"
-                        android:layout_marginTop="93dp"
-                        android:layout_marginRight="0dp"
-                        android:gravity="center"
-                        android:text="PRESTASI"
-                        android:textColor="#000000"
-                        android:textSize="10dp" />
-                </RelativeLayout>
-
-
-            </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_toEndOf="@id/ll1"
+                android:layout_below="@+id/bnr"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:paddingTop="30dp">
 
-                <RelativeLayout
+                <LinearLayout
+                    android:id="@+id/ll1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="25dp"
-                    android:background="@drawable/layout_bg">
+                    android:layout_marginEnd="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <ImageView
-                        android:id="@+id/gbr4"
+                    <RelativeLayout
                         android:layout_width="125dp"
                         android:layout_height="125dp"
-                        android:paddingTop="15dp"
-                        android:paddingBottom="25dp"
-                        android:src="@drawable/gallery" />
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/layout_bg">
 
-                    <TextView
-                        android:id="@+id/myImageViewText4"
-                        android:layout_width="match_parent"
-                        android:layout_height="32dp"
-                        android:layout_alignLeft="@+id/gbr4"
-                        android:layout_alignTop="@+id/gbr4"
-                        android:layout_alignRight="@+id/gbr4"
-                        android:layout_alignBottom="@+id/gbr4"
-                        android:layout_marginTop="93dp"
-                        android:layout_marginRight="0dp"
-                        android:gravity="center"
-                        android:text="GALERI"
-                        android:textColor="#000000"
-                        android:textSize="10dp" />
-                </RelativeLayout>
+                        <ImageView
+                            android:id="@+id/gbr1"
+                            android:layout_width="125dp"
+                            android:layout_height="125dp"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="25dp"
+                            android:src="@drawable/education1" />
 
-                <RelativeLayout
+                        <TextView
+                            android:id="@+id/myImageViewText"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_alignLeft="@+id/gbr1"
+                            android:layout_alignRight="@+id/gbr1"
+                            android:layout_alignBottom="@+id/gbr1"
+                            android:layout_marginRight="0dp"
+                            android:gravity="center"
+                            android:text="VISI MISI"
+                            android:textColor="#000000"
+                            android:textSize="10dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/layout_bg">
+
+                        <ImageView
+                            android:id="@+id/gbr2"
+                            android:layout_width="125dp"
+                            android:layout_height="125dp"
+                            android:paddingBottom="10dp"
+                            android:src="@drawable/division" />
+
+                        <TextView
+                            android:id="@+id/myImageViewText1"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@+id/gbr2"
+                            android:layout_alignTop="@+id/gbr2"
+                            android:layout_alignRight="@+id/gbr2"
+                            android:layout_alignBottom="@+id/gbr2"
+                            android:layout_marginTop="90dp"
+                            android:gravity="center"
+                            android:text="GURU DAN STAFF"
+                            android:textColor="#000000"
+                            android:textSize="10dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/layout_bg">
+
+                        <ImageView
+                            android:id="@+id/gbr3"
+                            android:layout_width="125dp"
+                            android:layout_height="125dp"
+                            android:paddingBottom="25dp"
+                            android:src="@drawable/achievement" />
+
+                        <TextView
+                            android:id="@+id/myImageViewText2"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_alignLeft="@+id/gbr3"
+                            android:layout_alignTop="@+id/gbr3"
+                            android:layout_alignRight="@+id/gbr3"
+                            android:layout_alignBottom="@+id/gbr3"
+                            android:layout_marginTop="93dp"
+                            android:layout_marginRight="0dp"
+                            android:gravity="center"
+                            android:text="PRESTASI"
+                            android:textColor="#000000"
+                            android:textSize="10dp" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="25dp"
-                    android:background="@drawable/layout_bg">
+                    android:layout_toEndOf="@id/ll1"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <ImageView
-                        android:id="@+id/gbr5"
-                        android:layout_width="125dp"
-                        android:layout_height="125dp"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="25dp"
-                        android:src="@drawable/maintenance" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/layout_bg">
 
-                    <TextView
-                        android:id="@+id/myImageViewText5"
-                        android:layout_width="64dp"
-                        android:layout_height="23dp"
-                        android:layout_alignLeft="@+id/gbr5"
-                        android:layout_alignTop="@+id/gbr5"
-                        android:layout_alignRight="@+id/gbr5"
-                        android:layout_alignBottom="@+id/gbr5"
-                        android:layout_marginTop="94dp"
-                        android:gravity="center"
-                        android:text="FASILITAS"
-                        android:textColor="#000000"
-                        android:textSize="10dp" />
-                </RelativeLayout>
+                        <ImageView
+                            android:id="@+id/gbr4"
+                            android:layout_width="125dp"
+                            android:layout_height="125dp"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="25dp"
+                            android:src="@drawable/gallery" />
 
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="25dp"
-                    android:background="@drawable/layout_bg">
+                        <TextView
+                            android:id="@+id/myImageViewText4"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_alignLeft="@+id/gbr4"
+                            android:layout_alignTop="@+id/gbr4"
+                            android:layout_alignRight="@+id/gbr4"
+                            android:layout_alignBottom="@+id/gbr4"
+                            android:layout_marginTop="93dp"
+                            android:layout_marginRight="0dp"
+                            android:gravity="center"
+                            android:text="GALERI"
+                            android:textColor="#000000"
+                            android:textSize="10dp" />
+                    </RelativeLayout>
 
-                    <ImageView
-                        android:id="@+id/gbr6"
-                        android:layout_width="125dp"
-                        android:layout_height="125dp"
-                        android:paddingBottom="20dp"
-                        android:src="@drawable/extracurricular1" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/layout_bg">
 
-                    <TextView
-                        android:id="@+id/myImageViewText6"
-                        android:layout_width="64dp"
-                        android:layout_height="23dp"
-                        android:layout_alignLeft="@+id/gbr6"
-                        android:layout_alignTop="@+id/gbr6"
-                        android:layout_alignRight="@+id/gbr6"
-                        android:layout_alignBottom="@+id/gbr6"
-                        android:layout_marginTop="94dp"
-                        android:gravity="center"
-                        android:text="EKSTRAKURIKULER"
-                        android:textColor="#000000"
-                        android:textSize="10dp" />
-                </RelativeLayout>
+                        <ImageView
+                            android:id="@+id/gbr5"
+                            android:layout_width="125dp"
+                            android:layout_height="125dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="25dp"
+                            android:src="@drawable/maintenance" />
+
+                        <TextView
+                            android:id="@+id/myImageViewText5"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@+id/gbr5"
+                            android:layout_alignTop="@+id/gbr5"
+                            android:layout_alignRight="@+id/gbr5"
+                            android:layout_alignBottom="@+id/gbr5"
+                            android:layout_marginTop="94dp"
+                            android:gravity="center"
+                            android:text="FASILITAS"
+                            android:textColor="#000000"
+                            android:textSize="10dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/layout_bg">
+
+                        <ImageView
+                            android:id="@+id/gbr6"
+                            android:layout_width="125dp"
+                            android:layout_height="125dp"
+                            android:paddingBottom="20dp"
+                            android:src="@drawable/extracurricular1" />
+
+                        <TextView
+                            android:id="@+id/myImageViewText6"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@+id/gbr6"
+                            android:layout_alignTop="@+id/gbr6"
+                            android:layout_alignRight="@+id/gbr6"
+                            android:layout_alignBottom="@+id/gbr6"
+                            android:layout_marginTop="94dp"
+                            android:gravity="center"
+                            android:text="EKSTRAKURIKULER"
+                            android:textColor="#000000"
+                            android:textSize="10dp" />
+                    </RelativeLayout>
+                </LinearLayout>
             </LinearLayout>
-</LinearLayout>
         </RelativeLayout>
 </ScrollView>
 </RelativeLayout>
